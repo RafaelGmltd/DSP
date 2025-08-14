@@ -112,11 +112,11 @@ module fir_tb;
     // define clock
     initial begin
         clk = 0;
-        forever #10 clk = ~clk;  // 50 MHz clock
+        forever #10 clk = ~clk; 
     end
 
     // define a RAM store input signal
-    reg signed [15:0] mem [0:199];  // 200 данных
+    reg signed [15:0] mem [0:199];  
 
     // input sin wave data from mem file
     initial
