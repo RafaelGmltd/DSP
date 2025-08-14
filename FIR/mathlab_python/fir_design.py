@@ -1,3 +1,5 @@
+# Коэффиценты для КИХ фильтра
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import firwin, freqz
